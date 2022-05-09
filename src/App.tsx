@@ -11,9 +11,6 @@ function Button(props: ButtonProps) {
 function App() {
   return (
     <div className="flex gap-2">
-      <Button text="Enviar" />
-      <Button text="Ok" />
-      <Button />
       <Widget />
     </div>
   );
